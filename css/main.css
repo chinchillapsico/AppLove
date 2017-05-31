@@ -1,0 +1,163 @@
+
+/*Estilos generales*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: #373B47;/*plomo oscuro*/
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853; /*rosado*/
+}
+.link{
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
+}
+.logo{
+  float: right;
+}
+
+/*header */
+header{
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+}
+.menu{
+  padding: 14px 70px;
+  overflow: auto;
+} 
+
+
+/*sección home; we are applove from heart*/
+#home{
+  background-image: url(../assets/images/bg-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 554px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#home .container{
+  color: white;
+  padding: 70px;
+}
+.text-home{
+  font-size: 53px;
+}
+.btn-home{
+  background: #2Ecc71;
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 1px;
+  font-weight: 500px;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+/* estilos sección servicios*/
+#services{
+  background-color: #F17C72;
+  text-align: center;
+  color: #fff;
+  padding: 70px 7px;
+}
+.box-services{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+.text-services{
+  font-size: 35px;
+  letter-spacing: 2px;
+} 
+/*estilos footer*/
+footer{
+  text-align: center;
+  height: 70px;
+  background-color: #373b47;
+  color: white;
+  padding-top: 7px;
+}
+
+/*subdic¿visión de la caja servicios*/
+.box-services{
+  cursor: pointer;
+}
+
+.box-services:hover{
+  background-color: rgba(255,255,255,0.2);
+}
+
+/*Modal*/
+#box-services-modal{
+  background-color: rgba(240,30,80,0.85);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#box-services-modal .modal-body{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px;
+}
+
+#box-services-modal .modal-body h5,
+#box-services-modal .modal-body h6{
+  color: whitesmoke;
+}
+#box-services-modal .modal-body h5{
+  font-size: 2em;
+}
+#box-services-modal .modal-body h6{
+  font-size: 1em;
+}
+
+#box-services-modal .close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#box-services-modal .close img{
+  width: 60px;
+}
+
+.hide{
+  display: none;
+}
