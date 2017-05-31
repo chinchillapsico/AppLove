@@ -108,6 +108,13 @@ header{
   color: #373B47;
   padding: 70px 7px;
 }
+#work-p{
+  
+  margin-right:260px;
+  margin-left: 260px;
+  padding: 30px;
+}
+
 #computer-image{
   background-image: url(../assets/images/hero.png);
   background-position: center;
@@ -126,6 +133,7 @@ footer{
   background-color: #373b47;
   color: white;
   padding-top: 7px;
+  margin-top:80px;
 }
 
 /*subdic¿visión de la caja servicios*/
